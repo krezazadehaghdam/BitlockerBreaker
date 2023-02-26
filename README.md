@@ -1,7 +1,7 @@
 # BitlockerBreaker
 Break the bitlocker encrypted partition
 
-3 About:
+# About:
 Microsoft has built a feature called BitLocker into its Windows operating system, with the help of which users can encrypt the partitions of their operating system. This feature can have many security benefits and can be used at organizational levels as well. Unfortunately, Microsoft's Windows operating system has many structural weaknesses and still has, and BitLocker's structural weakness can be a clear example of this. Although BitLocker in the new version of Microsoft's Windows 11 has many security improvements, including the use of TPM and Secure Boot, it still has this structural weakness and can cause security problems. When we try to encrypt our partition using BitLocker, we must consider a strong password for it to start the encryption process. Also, along with this password that the user enters, Microsoft also provides a Recover Key to access the encrypted partition. If the user forgets the password, with this Recover Key, the encrypted partition can be decrypted and the information can be accessed. had As a result, the encrypted partition can be recovered using the following two methods:
 1. Password set by the user
 2. Recover key defined by Microsoft
