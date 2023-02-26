@@ -37,11 +37,11 @@ do
         	sleep 1
         	echo "Data decrypted and mounted on $decdir"
         	sleep 1
-			umount -l $mntdir
-			sleep 1
-			rm -rf $mntdir
-			echo "Temp files deleted."
-			exit
+		umount -l $mntdir
+		sleep 1
+		rm -rf $mntdir
+		echo "Temp files deleted."
+		exit
     fi
 done
 fi
