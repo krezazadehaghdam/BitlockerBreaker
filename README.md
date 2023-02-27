@@ -24,4 +24,5 @@ Preparing a storage space of 5852 PB can be impossible for ordinary people and e
 ![ScreenShot](https://raw.githubusercontent.com/ksrvco/BitlockerBreaker/main/Screenshot/Screenshot.jpg)
 
 
-This is a sample tool only for my research.
+# Attention:
+The purpose of publishing this tool is not to imply that BitLocker is insecure on the Windows operating system. This tool is just the output of a short research on Bitlocker functionality in Windows operating system.
